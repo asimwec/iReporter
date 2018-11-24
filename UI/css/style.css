@@ -1,0 +1,175 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#F4F4F4;
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	color:#999999;
+}
+
+a{
+	color:#009900;
+}
+
+a:hover{
+	color:#CC3300;
+}
+.tables{
+	text-align:center;
+	font-weight:bold;
+}
+.button1{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#FFFFFF;
+}
+
+.login_button{
+	height:30px;
+	background:#e8491d;
+	border:0;
+	margin-top:5px;
+	width:80%;
+	padding-left:10px;
+	padding-right:10px;
+	color:#FFFFFF;
+}
+
+.login_textbox{
+	height:40px;
+	width:80%;
+	border:0;
+	margin-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#FFFFFF;
+}
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#FFFFFF;
+}
+
+.container{
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header{
+	background:#35424a;
+	color:#FFFFFF;
+	padding-top:10px;
+	min-height:50px;
+	border-bottom-color:#e8491d;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+}
+
+header a {
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:16px;
+	text-decoration:none;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header #branding {
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:#FF3300;
+	font-weight:bold;
+}
+
+#boxes{
+	margin-top:10px;
+}
+
+#boxes .box{
+	float:left;
+	margin-left:5px;
+	text-align:center;
+	border:#999999;
+	border:inset;
+	border-width:1px;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width:90px;
+}
+
+#boxes .box table{
+	text-align:left;
+}
+
+#boxes .box textarea{
+	width:90%;
+	height:50px;
+}
+
+
+footer{
+	padding:10px;
+	height:30px;
+	margin-top:10px;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#e8491d;
+}
+
+/*media queries to help show well on mobile devices ex add display:none; to body */
+
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#boxes .box,
+	aside#sidebar
+	{
+	float:none;
+	text-align:center;
+	width:100%;
+		
+	}
+	header{
+		padding-bottom:20px;
+	}
+	#showcase h1{
+		margin-top:40px;	
+	}
+}
