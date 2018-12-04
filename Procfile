@@ -1,0 +1,1 @@
+web: gunicorn iReporterApi:app --log-file -
